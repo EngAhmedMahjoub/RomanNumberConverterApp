@@ -8,9 +8,19 @@ body {
     color:rgb(230,220, 210);
 }
 
+table {
+    margin: auto;
+}
+
 tr {
     font-style: bold;
     color:rgb(230,220, 210);
+    text-align: center;
+    font-size: 12px;
+}
+
+.header {
+    text-align: center;
 }
 
 .overline {
