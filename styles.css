@@ -7,3 +7,12 @@ body {
 .container {
     color:rgb(230,220, 210);
 }
+
+tr {
+    font-style: bold;
+    color:rgb(230,220, 210);
+}
+
+.overline {
+    text-decoration: overline;
+}

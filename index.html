@@ -2,12 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="./styles.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Roman Number Converter</title>
     </head>
     <body>
@@ -16,11 +16,95 @@
                 <h1>Roman Numeral Converter</h1>
             </div>
             <div class="row">
-                <p>This is a calculator to convert Roman numerals into numbers.</p>
+                <p>This page is a calculator to convert Roman numerals into arabic numbers and Vice Versa.</p>
             </div>
             <div class="row">
-                <p>Currently it calculates Roman Numerals only.</p>
+                <p>Roman numerals are a number system developed in ancient Rome where letters represent numbers.
+                    The modern use of Roman numerals involves the letters I, V, X, L, C, D, and M.</p>
             </div>
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th>Roman Numeral</th>
+                        <th>Arabic Numeral</th>
+                        <th>Input</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>I</td>
+                        <td>1</td>
+                        <td>I</td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>5</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>X</td>
+                        <td>10</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>L</td>
+                        <td>50</td>
+                        <td>L</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>100</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>500</td>
+                        <td>D</td>
+                    </tr>
+                    <tr>
+                        <td>M</td>
+                        <td>1000</td>
+                        <td>M</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="overline">I</span>
+                        </td>
+                        <td>1000</td>
+                        <td>_I</td>
+                    </tr>
+                    <tr>
+                        <td><span class="overline">V</span></td>
+                        <td>5000</td>
+                        <td>_V</td>
+                    </tr>
+                    <tr>
+                        <td><span class="overline">X</span></td>
+                        <td>10000</td>
+                        <td>_X</td>
+                    </tr>
+                    <tr>
+                        <td><span class="overline">L</span></td>
+                        <td>50000</td>
+                        <td>_L</td>
+                    </tr>
+                    <tr>
+                        <td><span class="overline">C</span></td>
+                        <td>100000</td>
+                        <td>_C</td>
+                    </tr>
+                    <tr>
+                        <td><span class="overline">D</span></td>
+                        <td>500000</td>
+                        <td>_D</td>
+                    </tr>
+                    <tr>
+                        <td><span class="overline">M</span></td>
+                        <td>1000000</td>
+                        <td>_M</td>
+                    </tr>
+                </tbody>
+            </table>
             <div class="form-group">
                 <div class="row">
                     <label for="roman-number">Roman Numeral
